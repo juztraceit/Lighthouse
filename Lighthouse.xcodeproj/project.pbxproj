@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2427D219196F2FE7002A4937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427D218196F2FE7002A4937 /* ViewController.m */; };
+		2427D21C196F40C5002A4937 /* Utilitydata.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427D21B196F40C5002A4937 /* Utilitydata.m */; };
 		24AB1C651966371500D8ADFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AB1C641966371500D8ADFD /* Foundation.framework */; };
 		24AB1C671966371500D8ADFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AB1C661966371500D8ADFD /* CoreGraphics.framework */; };
 		24AB1C691966371500D8ADFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AB1C681966371500D8ADFD /* UIKit.framework */; };
@@ -15,13 +17,18 @@
 		24AB1C751966371500D8ADFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1C741966371500D8ADFD /* AppDelegate.m */; };
 		24AB1C781966371500D8ADFD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AB1C761966371500D8ADFD /* Main_iPhone.storyboard */; };
 		24AB1C7B1966371500D8ADFD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AB1C791966371500D8ADFD /* Main_iPad.storyboard */; };
-		24AB1C7E1966371500D8ADFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1C7D1966371500D8ADFD /* ViewController.m */; };
 		24AB1C801966371500D8ADFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AB1C7F1966371500D8ADFD /* Images.xcassets */; };
 		24AB1C871966371500D8ADFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AB1C861966371500D8ADFD /* XCTest.framework */; };
 		24AB1C881966371500D8ADFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AB1C641966371500D8ADFD /* Foundation.framework */; };
 		24AB1C891966371500D8ADFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AB1C681966371500D8ADFD /* UIKit.framework */; };
 		24AB1C911966371500D8ADFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24AB1C8F1966371500D8ADFD /* InfoPlist.strings */; };
 		24AB1C931966371500D8ADFD /* LighthouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1C921966371500D8ADFD /* LighthouseTests.m */; };
+		24AB1C9F1966374F00D8ADFD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1C9E1966374F00D8ADFD /* DetailViewController.m */; };
+		24AB1CA31966377C00D8ADFD /* Circuitmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1CA21966377C00D8ADFD /* Circuitmodel.m */; };
+		24AB1CA61966378C00D8ADFD /* LastReading.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1CA51966378C00D8ADFD /* LastReading.m */; };
+		24AB1CA91966379500D8ADFD /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1CA81966379500D8ADFD /* Events.m */; };
+		24AB1CB21966445B00D8ADFD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1CB11966445B00D8ADFD /* SettingsViewController.m */; };
+		24AB1CB51966481C00D8ADFD /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB1CB41966481C00D8ADFD /* HomeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2427D217196F2FE7002A4937 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2427D218196F2FE7002A4937 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2427D21A196F40C5002A4937 /* Utilitydata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilitydata.h; sourceTree = "<group>"; };
+		2427D21B196F40C5002A4937 /* Utilitydata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilitydata.m; sourceTree = "<group>"; };
 		24AB1C611966371500D8ADFD /* Lighthouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighthouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AB1C641966371500D8ADFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24AB1C661966371500D8ADFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +58,24 @@
 		24AB1C741966371500D8ADFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24AB1C771966371500D8ADFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		24AB1C7A1966371500D8ADFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		24AB1C7C1966371500D8ADFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24AB1C7D1966371500D8ADFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24AB1C7F1966371500D8ADFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24AB1C851966371500D8ADFD /* LighthouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AB1C861966371500D8ADFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		24AB1C8E1966371500D8ADFD /* LighthouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LighthouseTests-Info.plist"; sourceTree = "<group>"; };
 		24AB1C901966371500D8ADFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24AB1C921966371500D8ADFD /* LighthouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighthouseTests.m; sourceTree = "<group>"; };
+		24AB1C9D1966374F00D8ADFD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		24AB1C9E1966374F00D8ADFD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		24AB1CA11966377C00D8ADFD /* Circuitmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circuitmodel.h; sourceTree = "<group>"; };
+		24AB1CA21966377C00D8ADFD /* Circuitmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circuitmodel.m; sourceTree = "<group>"; };
+		24AB1CA41966378C00D8ADFD /* LastReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastReading.h; sourceTree = "<group>"; };
+		24AB1CA51966378C00D8ADFD /* LastReading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastReading.m; sourceTree = "<group>"; };
+		24AB1CA71966379500D8ADFD /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		24AB1CA81966379500D8ADFD /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		24AB1CB01966445B00D8ADFD /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		24AB1CB11966445B00D8ADFD /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		24AB1CB31966481C00D8ADFD /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		24AB1CB41966481C00D8ADFD /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +139,9 @@
 				24AB1C741966371500D8ADFD /* AppDelegate.m */,
 				24AB1C761966371500D8ADFD /* Main_iPhone.storyboard */,
 				24AB1C791966371500D8ADFD /* Main_iPad.storyboard */,
-				24AB1C7C1966371500D8ADFD /* ViewController.h */,
-				24AB1C7D1966371500D8ADFD /* ViewController.m */,
 				24AB1C7F1966371500D8ADFD /* Images.xcassets */,
+				24AB1CA01966375D00D8ADFD /* Models */,
+				24AB1C9C1966374F00D8ADFD /* ViewControllers */,
 				24AB1C6B1966371500D8ADFD /* Supporting Files */,
 			);
 			path = Lighthouse;
@@ -153,6 +174,36 @@
 				24AB1C8F1966371500D8ADFD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24AB1C9C1966374F00D8ADFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				24AB1C9D1966374F00D8ADFD /* DetailViewController.h */,
+				24AB1C9E1966374F00D8ADFD /* DetailViewController.m */,
+				24AB1CB01966445B00D8ADFD /* SettingsViewController.h */,
+				24AB1CB11966445B00D8ADFD /* SettingsViewController.m */,
+				2427D217196F2FE7002A4937 /* ViewController.h */,
+				2427D218196F2FE7002A4937 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		24AB1CA01966375D00D8ADFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24AB1CA11966377C00D8ADFD /* Circuitmodel.h */,
+				24AB1CA21966377C00D8ADFD /* Circuitmodel.m */,
+				24AB1CA41966378C00D8ADFD /* LastReading.h */,
+				24AB1CA51966378C00D8ADFD /* LastReading.m */,
+				24AB1CA71966379500D8ADFD /* Events.h */,
+				24AB1CA81966379500D8ADFD /* Events.m */,
+				24AB1CB31966481C00D8ADFD /* HomeModel.h */,
+				24AB1CB41966481C00D8ADFD /* HomeModel.m */,
+				2427D21A196F40C5002A4937 /* Utilitydata.h */,
+				2427D21B196F40C5002A4937 /* Utilitydata.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24AB1C7E1966371500D8ADFD /* ViewController.m in Sources */,
+				24AB1CB51966481C00D8ADFD /* HomeModel.m in Sources */,
+				24AB1CA91966379500D8ADFD /* Events.m in Sources */,
+				24AB1CA61966378C00D8ADFD /* LastReading.m in Sources */,
+				24AB1C9F1966374F00D8ADFD /* DetailViewController.m in Sources */,
+				2427D219196F2FE7002A4937 /* ViewController.m in Sources */,
+				24AB1CA31966377C00D8ADFD /* Circuitmodel.m in Sources */,
+				2427D21C196F40C5002A4937 /* Utilitydata.m in Sources */,
 				24AB1C751966371500D8ADFD /* AppDelegate.m in Sources */,
 				24AB1C711966371500D8ADFD /* main.m in Sources */,
+				24AB1CB21966445B00D8ADFD /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +528,7 @@
 				24AB1C981966371500D8ADFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24AB1C991966371500D8ADFD /* Build configuration list for PBXNativeTarget "LighthouseTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +537,7 @@
 				24AB1C9B1966371500D8ADFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
